@@ -1,0 +1,17 @@
+{
+    "name": "placeholder_name",
+    "plugin_name": "vanilla",
+    "hadoop_version": "2.6.0",
+    "node_groups": [
+        {
+            "name": "master",
+            "node_group_template_id": "placeholder_master_group_id",
+            "count": 1
+        },
+        {
+            "name": "workers",
+            "node_group_template_id": "placeholder_worker_group_id",
+            "count": 2
+        }
+    ]
+}

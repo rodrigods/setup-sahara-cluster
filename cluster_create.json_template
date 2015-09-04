@@ -1,0 +1,8 @@
+{
+    "name": "cluster-1",
+    "plugin_name": "vanilla",
+    "hadoop_version": "2.6.0",
+    "cluster_template_id" : "placeholder_cluster_template_id",
+    "user_keypair_id": "placeholder_keypair_name",
+    "default_image_id": "placeholder_image_id"
+}

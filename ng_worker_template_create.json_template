@@ -1,0 +1,8 @@
+{
+    "name": "placeholder_name",
+    "flavor_id": "2",
+    "plugin_name": "vanilla",
+    "hadoop_version": "2.6.0",
+    "node_processes": ["datanode", "nodemanager"],
+    "auto_security_group": true
+}
