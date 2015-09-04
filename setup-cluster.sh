@@ -32,9 +32,6 @@ IMAGE_ID=`glance image-create --name=$IMAGE_NAME --disk-format=qcow2 --container
 
 sahara image-register --id $IMAGE_ID --username $OS_USERNAME
 
-echo "VAI CARAI CRIA AS TAGS!"
-sleep 30
-
 # FIXME: calling curl due a bug in python-saharaclient
 AUTH_TOKEN=`keystone token-get | awk '/ id/ {print $4}'`
 TENANT_ID=`keystone token-get | awk '/tenant_id/ {print $4}'`
